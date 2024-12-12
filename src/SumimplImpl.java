@@ -6,8 +6,4 @@ public class SumimplImpl{
         System.out.println ("Inside method "+ c);
 
     }
-
-
-    /*public static void sum(int i, int i1, int i2) {
-    }*/
 }
