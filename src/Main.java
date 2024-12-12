@@ -4,8 +4,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-
+     //try to commit the changes to master
      SingletonDesignPattern sgp1= SingletonDesignPattern.getInstance();
+     Addition add= new Addition();
+    // add.addition_number(1,10);
+     System.out.println("Addition is  "+ add.addition_number(1,10) );
 
         int[] sampleArray={1,2,3,4,5,3,5,3,2};
         int splitSize=4;
